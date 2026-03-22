@@ -9,7 +9,7 @@
 #endif
 
 #include "Engine/MemberReference.h"
-#include "InstancedStruct.h"
+#include "StructUtils/InstancedStruct.h"
 #include "Interfaces/MDViewModelCacheInterface.h"
 #include "Interfaces/MDViewModelRuntimeInterface.h"
 #include "MDViewModelProviderBase.h"

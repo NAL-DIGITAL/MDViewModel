@@ -1,6 +1,6 @@
 #pragma once
 
-#include "InstancedStruct.h"
+#include "StructUtils/InstancedStruct.h"
 #include "Interfaces/MDViewModelRuntimeInterface.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "MDViewModelAssignmentReference.h"

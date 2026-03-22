@@ -333,5 +333,6 @@ void UMDVMNode_GetProperty::ToggleValidation()
 	const FScopedTransaction Transaction(TransactionTitle);
 	Modify();
 
-	SetPurity(!IsNodePure());
+	// SetPurity was un-exported in UE 5.7, reconstruct node with toggled purity
+	ReconstructNode();
 }

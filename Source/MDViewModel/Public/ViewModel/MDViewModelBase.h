@@ -12,7 +12,7 @@
 #include "FieldNotification/IFieldValueChanged.h"
 #endif
 
-#include "InstancedStruct.h"
+#include "StructUtils/InstancedStruct.h"
 #include "UObject/Object.h"
 #include "UObject/Package.h"
 #include "Templates/SubclassOf.h"

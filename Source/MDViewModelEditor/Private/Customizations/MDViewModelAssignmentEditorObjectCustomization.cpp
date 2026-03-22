@@ -560,7 +560,7 @@ TSharedRef<SWidget> FMDViewModelAssignmentEditorObjectCustomization::OnGetProvid
 
 	if (GEngine != nullptr)
 	{
-		TArray<UMDViewModelProviderBase*> ViewModelProviders = GEngine->GetEngineSubsystemArray<UMDViewModelProviderBase>();
+		TArray<UMDViewModelProviderBase*> ViewModelProviders = GEngine->GetEngineSubsystemArrayCopy<UMDViewModelProviderBase>();
 
 		ViewModelProviders.Sort([](const UMDViewModelProviderBase& A, const UMDViewModelProviderBase& B)
 		{

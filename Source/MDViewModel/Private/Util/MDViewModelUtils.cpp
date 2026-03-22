@@ -26,7 +26,7 @@ namespace MDViewModelUtils
 	{
 		if (GEngine != nullptr)
 		{
-			UMDViewModelProviderBase* const* ProviderPtr = GEngine->GetEngineSubsystemArray<UMDViewModelProviderBase>().FindByPredicate([&ProviderTag](const UMDViewModelProviderBase* Provider)
+			UMDViewModelProviderBase* const* ProviderPtr = GEngine->GetEngineSubsystemArrayCopy<UMDViewModelProviderBase>().FindByPredicate([&ProviderTag](const UMDViewModelProviderBase* Provider)
 			{
 				return IsValid(Provider) && Provider->GetProviderTag() == ProviderTag;
 			});

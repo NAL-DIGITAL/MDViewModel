@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "InstancedStruct.h"
+#include "StructUtils/InstancedStruct.h"
 #include "Runtime/Launch/Resources/Version.h"
 #include "UObject/Interface.h"
 #include "UObject/WeakInterfacePtr.h"

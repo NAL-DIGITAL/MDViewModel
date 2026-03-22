@@ -1,7 +1,7 @@
 #pragma once
 
 #include "GameplayTagContainer.h"
-#include "InstancedStruct.h"
+#include "StructUtils/InstancedStruct.h"
 #include "Templates/SubclassOf.h"
 #include "UObject/Object.h"
 #include "Util/MDViewModelEditorAssignment.h"
